@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+  max-width: 100%;
+  font-family: Outfit;
+}
+
+body {
+  background: #d5e1ef;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  min-height: 550px;
+}
+
+#container {
+  width: 320px;
+  height: 497px;
+  background: white;
+  border-radius: 20px;
+  padding: 16px;
+  text-align: center;
+}
+
+#container #qr {
+  margin-bottom: 24px;
+}
+
+#container h1 {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 16px;
+  color: #1f314f;
+}
+
+#container p {
+  font-size: 15px;
+  letter-spacing: 0.19px;
+  padding: 0 16px;
+  color: #7d889e;
+}
